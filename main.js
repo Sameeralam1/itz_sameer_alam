@@ -211,7 +211,7 @@ var settings = {
 
 							var $indicator_li = $('<li>' + i + '</li>').appendTo($indicators);
 
-							// Indicator.
+							// Indicator.  
 								$indicator_li
 									.data('index', i)
 									.on('click', function() {
@@ -280,7 +280,7 @@ var settings = {
 			$banner._slider(settings.banner);
 
 		// Menu.
-			$('#menu')
+			$('#')
 				.append('<a href="#menu" class="close"></a>')
 				.appendTo($body)
 				.panel({
